@@ -151,16 +151,26 @@ Esto permite verificar visualmente qué está detectando el sistema.
 
 # Ejecución
 
-Instalar dependencias:
+Crear virtual env:
+```bash
+python3 -m venv venv
+```
+
+Usar virtual env:
 
 ```bash
-pip install opencv-python mediapipe numpy
+source venv/bin/activate
+```
+
+Instalar dependencias
+```bash
+pip install -r requirements.txt
 ```
 
 Ejecutar el script:
 
 ```bash
-python main.py
+python3 TP1/main.py
 ```
 
 Controles:
